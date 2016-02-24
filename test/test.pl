@@ -1,4 +1,5 @@
 #!/usr/bin/perl
 $datestring = localtime();
-print "Running from teamcity goggles $datestring" > /opt/JetBrains/TeamCity/buildAgent/work/outpit.txt;
+open(my $fh, '>>', '../outpit.txt') or die;
+print "Running from teamcity goggles $datestring" > ../outpit.txt;
 
