@@ -1,3 +1,3 @@
 #!/usr/bin/perl
-echo "Running from teamcity goggles";
+print "Running from teamcity goggles";
 
