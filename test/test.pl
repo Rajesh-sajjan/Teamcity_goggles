@@ -1,3 +1,4 @@
 #!/usr/bin/perl
-print "Running from teamcity goggles";
+$datestring = localtime();
+print "Running from teamcity goggles $datestring" > /opt/JetBrains/TeamCity/buildAgent/work/outpit.txt;
 
